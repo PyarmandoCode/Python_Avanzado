@@ -16,4 +16,3 @@ Total Por Persona:\t ${round(((total_plato+impuesto+porc_propina)/personas),2
 )}
 {'*'*30}
 ''')
-

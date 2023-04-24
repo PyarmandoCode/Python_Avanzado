@@ -107,18 +107,3 @@ print("\t tabulador \n\n")
 #Palabras Reservadas 
 import keyword
 print(keyword.kwlist)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
