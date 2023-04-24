@@ -1,5 +1,8 @@
 #Resumen condicionales
 
+
+
+
 precio = int(input("Ingrese el precio del Producto:"))
 if precio>=200 and precio<=500:
     print("El Producto debe tener descuento")
@@ -47,6 +50,3 @@ while True:
         if cont==3:
             print("Supero los intentos , vuelva en 24 horas")        
             break
-
-
-    
