@@ -1,0 +1,5 @@
+,productId,productName,supplierId,categoryId,quantityPerUnit,unitPrice,unitsInStock,unitsOnOrder,reorderLevel,discontinued
+0,3,Product IMEHJ,1,2,,10.0,,,,0
+1,21,Product VJZZH,8,3,,10.0,,,,0
+2,46,Product CBRRL,21,8,,12.0,,,,0
+3,74,Product BKAZJ,4,7,,10.0,,,,0
