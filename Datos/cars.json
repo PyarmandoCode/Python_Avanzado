@@ -1,6 +1,0 @@
-cars = [
-    {"name":"Honda","price":10000,"model":2020,"power":1300},
-    {"name":"Toyota","price":12000,"model":2021,"power":1500},
-    {"name":"Audi","price":15000,"model":2022,"power":1730},
-    {"name":"Ford","price":18000,"model":2010,"power":1700},
-]
