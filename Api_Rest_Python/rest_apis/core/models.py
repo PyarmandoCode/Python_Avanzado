@@ -7,9 +7,15 @@ class Movies(models.Model):
     genre = models.CharField(max_length=100, blank=True, null=True)
     collection_in_mil = models.DecimalField(max_digits=4, decimal_places=1, blank=True, null=True)
 
+
+    def __str__(self):
+        return self.title
+
     class Meta:
         managed = False
         db_table = 'movies'
+
+
 
 
 class Ratings(models.Model):
@@ -26,6 +32,9 @@ class Ratings(models.Model):
 class Reviewers(models.Model):
     first_name = models.CharField(max_length=100, blank=True, null=True)
     last_name = models.CharField(max_length=100, blank=True, null=True)
+
+    def __str__(self):
+        return (self.first_name +   self.last_name )
 
     class Meta:
         managed = False
